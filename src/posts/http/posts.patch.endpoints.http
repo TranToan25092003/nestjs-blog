@@ -1,0 +1,11 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+
+  {
+  "id": 14,
+  "postType": "story",
+   "title" : "toan dep dai 9999999999999",
+   "tags": [4, 5]
+    
+}
+    

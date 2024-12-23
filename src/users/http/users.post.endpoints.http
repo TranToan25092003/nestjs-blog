@@ -1,0 +1,22 @@
+POST http://localhost:3000/users/create
+Content-Type: application/json
+{
+"firstName": "toan dep dai",
+"lastName": "toan bigduck",
+"email": "toanvipsfdsfddsdfgg0sa8sd8fgtfdggf2@gmail.aaacom",
+"password": "123456aa"
+}
+
+
+POST http://localhost:3000/users/create/many
+Content-Type: application/json
+{
+"users": [
+    {
+        "firstName": "toan dep dai",
+        "lastName": "toan bigduck",
+        "email": "toan6667@gmail.aaacom",
+        "password": "123qaz123213sdadasd"
+    }
+]
+}

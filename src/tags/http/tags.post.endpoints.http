@@ -1,0 +1,9 @@
+POST http://localhost:3000/tags/create
+Content-Type: application/json
+{
+    "name": "worddsfdsfdsdf",
+    "slug": "p-ig-a-sdfjksd",
+    "description": "description 2",
+    "schema": "{\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }",
+    "featuredImgUrl": "http://localhost.com/images/image1.jpg"
+}
